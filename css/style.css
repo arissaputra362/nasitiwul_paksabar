@@ -451,6 +451,7 @@ header nav .nav-link:hover::before {
 
 /* --- Footer CSS --- */
 footer {
+  margin-top: -10px;
   background: #056267;
   color: #fff;
 }
