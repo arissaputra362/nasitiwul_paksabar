@@ -562,6 +562,10 @@
     padding: 0 30px 40px 30px;
   }
 
+  .product a.another {
+    margin-top: 10px;
+  }
+
   .product hr {
     width: 40%;
   }
@@ -606,7 +610,11 @@
   }
 
   .product a.another {
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+
+  footer .cont-img img {
+    width: 45px;
   }
 }
 
