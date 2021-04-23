@@ -181,14 +181,14 @@
   }
 
   .top-page .desc-title {
-    font-size: 0.82rem;
+    font-size: 0.92rem;
   }
 
   /* --- Sesuaikan Ukurna Tombol Top Page --- */
   .top-page a.order-now {
     padding: 10px 25px;
     margin-top: 25px;
-    font-size: 0.82rem;
+    font-size: 1rem;
   }
 
   /* --- Top Page --- */
@@ -319,7 +319,7 @@
   .top-page a.order-now {
     margin-top: 10px;
     font-size: 1.2rem;
-    padding: 15px 40px;
+    padding: 10px 35px;
   }
 
   .top-page svg {
@@ -555,7 +555,7 @@
 
   .top-page .desc-title,
   .top-page a.order-now {
-    font-size: 0.78rem;
+    font-size: 0.96rem;
   }
 
   .product .product-area {
