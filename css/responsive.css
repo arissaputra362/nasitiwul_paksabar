@@ -1,0 +1,716 @@
+@media screen and (min-width: 1300px) {
+  .introduction .photo img {
+    width: 120%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .introduction .photo img {
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about .cont-icon .about-icon {
+    height: 50px;
+  }
+
+  .about .cont-icon h5 {
+    font-size: 0.7rem;
+  }
+
+  .about .desc-about h2 {
+    margin-bottom: 15px;
+  }
+
+  .about .kangojek {
+    display: flex;
+  }
+
+  footer ul.icon i {
+    font-size: 32px;
+  }
+
+  footer ul.icon i.fa-facebook-f {
+    font-size: 28px;
+  }
+
+  footer ul.icon li img {
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 1067px) {
+  .introduction .photo img {
+    left: -15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /* --- Untuk mengarahkan menu ke bagian paling kanan --- */
+  header .navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  /* --- Memberi lebih banyak ruang antar link menu --- */
+  header .navbar {
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* ==== Costum Header CSS ==== */
+  /* --- Make Nav Bar Collapse from rigth side --- */
+  /* -- Adjust width of navbar side collapse when it show -- */
+  header .navbar-collapse.show {
+    width: 50%;
+  }
+
+  header .navbar-nav {
+    padding: 0 20px;
+  }
+
+  header nav .nav-link {
+    font-size: 1.2rem;
+  }
+
+  header nav .nav-link.active,
+  header nav .nav-link:hover {
+    color: #fecc76 !important;
+  }
+
+  header nav .nav-link::before {
+    content: none;
+  }
+
+  /* -- Navbar side collapse properties -- */
+  header .navbar-collapse {
+    background-color: #088a91;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 0;
+    z-index: 1001;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  /* -- Costum Animation navbar toggler -- */
+  /* - Navbar side collapse toggler properties - */
+  header .navbar-toggler {
+    z-index: 1020;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 2em;
+    height: 2em;
+    transition: 0.3s;
+    padding: 0 1.2em 0.15em 0;
+  }
+
+  /* - To make 3 strips(humberger) buttons menu - */
+  header .navbar-toggler-inner,
+  header .navbar-toggler-inner::before,
+  header .navbar-toggler-inner::after {
+    width: 1.2em;
+    height: 0.16em;
+    background-color: #fff;
+    position: absolute;
+  }
+
+  /* - Default rotate and add transition for humberger buttons - */
+  header .navbar-toggler-inner {
+    transition: 0.2s;
+    transform: rotate(0deg);
+  }
+
+  /* - First(top) strips of humberger buttons - */
+  header .navbar-toggler-inner::before {
+    content: "";
+    display: block;
+    top: -0.3em;
+  }
+
+  /* - Last(bottom) strips of humberger buttons - */
+  header .navbar-toggler-inner::after {
+    content: "";
+    display: block;
+    bottom: -0.3em;
+  }
+
+  /* - Adjust color white for humberger when it has class active - */
+  .navbar-toggler.active {
+    background-color: #fecc76;
+    border-radius: 50%;
+    position: fixed;
+    transition: 0.2s;
+    top: 8px;
+    right: 2%;
+  }
+
+  /* - Transform Humberger Buton to cross button when navbar-toggler has active class - */
+  /* - Rotate Humberger buttons(main/center strip) - */
+  .navbar-toggler.active > .navbar-toggler-inner {
+    transition: 0.2s;
+    transform: rotate(45deg);
+  }
+
+  /* - Disapear last strip - */
+  .navbar-toggler.active > .navbar-toggler-inner::before {
+    top: 0;
+    opacity: 0;
+  }
+
+  /* - Rotate first strip */
+  .navbar-toggler.active > .navbar-toggler-inner::after {
+    bottom: 0;
+    transform: rotate(-90deg);
+  }
+  /* - End of Transform Humberger Buton to cross button when navbar-toggler has active class - */
+  /* -- Costum Animation navbar toggler -- */
+
+  /* --- Menyesuaikan Ukuran Font Judul Utama --- */
+  .top-page .title {
+    font-size: 1.5rem;
+  }
+
+  .top-page .desc-title {
+    font-size: 0.82rem;
+  }
+
+  /* --- Sesuaikan Ukurna Tombol Top Page --- */
+  .top-page a.order-now {
+    padding: 10px 25px;
+    margin-top: 25px;
+    font-size: 0.82rem;
+  }
+
+  /* --- Top Page --- */
+  .top-page .cont-product {
+    transform: scale(1.2);
+    margin-right: -30px;
+  }
+
+  .top-page .cont-title {
+    margin-top: 10%;
+  }
+
+  .top-page a.order-now {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 15px 40px;
+  }
+
+  .top-page .cont-img {
+    width: 60%;
+    margin: 15px auto 0 auto;
+  }
+
+  .top-page .al-center {
+    text-align: center;
+  }
+
+  /* --- Intro CSS --- */
+  .introduction {
+    padding-bottom: 0 !important;
+  }
+
+  .introduction .photo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .introduction .photo img {
+    width: 40%;
+    position: unset;
+  }
+
+  .about .cont-about {
+    flex-wrap: wrap-reverse;
+  }
+
+  .about .kangojek {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .about .cont-icon .about-icon {
+    height: 110px;
+  }
+
+  .about .cont-icon h5 {
+    font-size: 0.8rem;
+  }
+
+  .about .desc-about h2 {
+    margin-bottom: 25px;
+  }
+
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact .testi {
+    margin-top: 20px;
+  }
+
+  .contact .m-testi {
+    margin-bottom: 20px;
+  }
+
+  footer .cont-img img {
+    width: 100%;
+  }
+
+  footer .logo h5 {
+    font-size: 1.6rem;
+  }
+
+  footer p.desc {
+    margin-bottom: 20px;
+  }
+
+  footer .cont-logo {
+    margin-bottom: 50px;
+  }
+
+  footer ul.icon {
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  footer ul.icon i {
+    font-size: 36px;
+  }
+
+  footer ul.icon i.fa-facebook-f {
+    font-size: 32px;
+  }
+
+  footer ul.icon li img {
+    height: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  .navbar-toggler.active {
+    right: 3.5%;
+  }
+
+  .top-page a.order-now {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    padding: 15px 40px;
+  }
+
+  .top-page svg {
+    margin-top: -60px;
+  }
+
+  /* --- End of Top Page --- */
+
+  /* --- introduction --- */
+  .introduction {
+    padding: 50px 0;
+  }
+
+  .introduction .intro-items {
+    margin-bottom: 40px;
+  }
+
+  .introduction .intro-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .introduction h4 {
+    font-size: 1.1rem;
+  }
+
+  .introduction p {
+    font-size: 0.84rem;
+    margin-bottom: 0;
+  }
+
+  /* --- End of Introduction --- */
+
+  .about .desc-about h2 {
+    margin-bottom: 10px;
+  }
+
+  .about .margin-icon {
+    width: 50%;
+  }
+
+  .about .ojek {
+    width: 100%;
+  }
+
+  .about .ojek img {
+    height: 100% !important;
+  }
+
+  .about .cont-icon .about-icon {
+    height: 80px;
+  }
+
+  /* --- End of About --- */
+
+  .product h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+  }
+
+  .product hr {
+    width: 30%;
+  }
+
+  .product .star {
+    width: 30%;
+  }
+  .contact {
+    padding-top: 50px;
+  }
+
+  .contact-icon {
+    width: 65px;
+    height: 65px;
+  }
+
+  .contact .cont-contact p {
+    font-size: 1rem;
+  }
+
+  .contact .map {
+    margin-top: 30px;
+  }
+
+  .contact .map iframe {
+    height: 240px !important;
+  }
+
+  .contact .testi {
+    margin-top: 25px;
+  }
+
+  .contact svg {
+    margin-top: -20px;
+  }
+
+  footer ul.icon {
+    width: 60%;
+  }
+
+  footer ul li {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* -- Adjust width side nav -- */
+  header .navbar-collapse.show {
+    width: 70%;
+  }
+
+  .about {
+    padding: 50px 0;
+  }
+
+  .about .m-ojek {
+    width: 50%;
+  }
+
+  .about .ojek {
+    height: 230px !important;
+  }
+
+  .about .ojek img {
+    height: max-content !important;
+  }
+
+  .product .product-carousel div.owl-nav {
+    display: none;
+  }
+
+  .product .product-carousel div.owl-dots {
+    display: block;
+    margin-top: 40px;
+  }
+
+  /* -- Display owl-naavigation dots --  */
+  .product .owl-carousel .owl-dots {
+    text-align: center;
+  }
+
+  /* -- Costumize owl dots -- */
+  .product .owl-carousel .owl-dot {
+    margin: 0 5px;
+    width: 7%;
+    cursor: pointer;
+    min-height: 7px;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background-color: #d8d8d8;
+  }
+
+  /* - Disapear boorder owl-dots - */
+  .product .owl-carousel .owl-dot:focus {
+    border: none;
+  }
+
+  .product .owl-carousel .owl-dot.active {
+    background-color: #fecc76 !important;
+    border: none;
+  }
+  /* -- End of Costumize owl dots -- */
+
+  .product a.another {
+    margin-top: 40px;
+  }
+
+  .contact .cont-title,
+  .contact .cont-contact,
+  .contact .map,
+  .contact .testi {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .contact .cont-title,
+  .contact .cont-contact {
+    text-align: center;
+  }
+
+  .contact-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contact .cont-contact p {
+    margin: 10px auto 20px auto;
+  }
+
+  footer .p-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  footer .logo h5 {
+    font-size: 1.3rem;
+  }
+
+  footer p.desc {
+    margin-bottom: 30px;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+
+  footer .produk-title {
+    margin-top: 0px;
+  }
+
+  footer .produk-list {
+    margin-top: 15px;
+  }
+
+  footer .intro-title {
+    margin-top: 15px;
+  }
+
+  footer .intro-list {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .top-page .title h1 {
+    font-size: 1.2rem;
+  }
+
+  .top-page .desc-title,
+  .top-page a.order-now {
+    font-size: 0.78rem;
+  }
+
+  .product .product-area {
+    padding: 0 30px 40px 30px;
+  }
+
+  .product hr {
+    width: 40%;
+  }
+
+  .product .star {
+    width: 40%;
+  }
+
+  footer ul.icon {
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  footer .cont-img img {
+    width: 140%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header nav .nav-link {
+    font-size: 1rem;
+  }
+
+  .about .m-ojek {
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 40px;
+  }
+
+  .about .ojek {
+    height: 500px !important;
+  }
+
+  .about .ojek.ojek-1 img {
+    width: auto !important;
+    height: 100% !important;
+  }
+
+  .about .ojek.ojek-2 img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .product a.another {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .top-page .title {
+    font-size: 1.2rem;
+  }
+
+  .top-page svg {
+    margin-top: -50px;
+  }
+
+  .top-page a.order-now {
+    padding: 10px 35px;
+  }
+
+  .introduction .intro-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product hr {
+    width: 60%;
+  }
+
+  .product .star {
+    width: 60%;
+  }
+
+  .product .product-area {
+    padding: 0 20px 40px 20px;
+  }
+
+  .about .ojek {
+    height: 300px !important;
+  }
+
+  .contact .img-testi img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contact .cont-title,
+  .contact .cont-contact {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  footer .cont-img img {
+    width: 35px;
+    height: 35px;
+  }
+
+  footer .logo h5,
+  footer h5 {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+
+  footer ul li {
+    font-size: 0.85rem;
+  }
+
+  footer p.copyright {
+    font-size: 0.67rem;
+  }
+
+  footer ul.icon i {
+    font-size: 26px;
+  }
+
+  footer ul.icon i.fa-facebook-f {
+    font-size: 22px;
+  }
+
+  footer ul.icon li img {
+    height: 28px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .navbar-brand {
+    font-size: 0.85rem;
+  }
+
+  .top-page svg {
+    margin-top: -30px;
+  }
+
+  .product a.another {
+    padding: 10px 30px;
+    font-size: 0.9rem;
+  }
+
+  footer .cont-img img {
+    width: 26px;
+    height: 26px;
+  }
+
+  footer .p-footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

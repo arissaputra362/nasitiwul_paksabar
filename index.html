@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Montserrat CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+
+    <!-- Owl Carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+
+    <!-- Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Costum CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Nasi Tiwul Pak Sabar</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed-top">
+      <div class="container-lg">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#home">Warung Tiwul Pak Sabar</a>
+          <button
+            id="toggleTop"
+            class="navbar-toggler toggle-top"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-inner"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav" id="menu">
+              <li class="nav-link active">
+                <a href="#home"> Beranda</a>
+              </li>
+              <li class="nav-link"><a href="#tentang">Tentang</a></li>
+              <li class="nav-link"><a href="#produk">Produk</a></li>
+              <li class="nav-link"><a href="#kontak">Kontak</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Top Page -->
+    <section id="home" class="top-page">
+      <div class="container-sm">
+        <div class="row">
+          <!-- Berisi Teks Judul -->
+          <div class="col-lg-7 al-center">
+            <!-- Container Berisi Judul -->
+            <div class="cont-title aos-init aos-animate" data-aos="fade-right">
+              <!-- Judul Utama Landing Page -->
+              <h1 class="title">
+                MAKANAN LEGENDARIS? <br />
+                HANYA WARUNG TIWUL PAK SABAR
+              </h1>
+
+              <!-- Teks Deskripsi di bawah judul -->
+              <p class="desc-title">Rasanya Enak, Sehat dan bikin Nganenin</p>
+            </div>
+
+            <!-- Tombol Pesan -->
+            <a href="#produk" class="order-now">Pesan Sekarang</a>
+          </div>
+
+          <!-- Berisi Gambar Produk -->
+          <div class="col-lg-5 aos-init aos-animate" data-aos="fade-up">
+            <div class="cont-img d-flex justify-content-center">
+              <img src="./assets/img/top-page/img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#F9EEDB"
+          fill-opacity="0.4"
+          d="M0,128L48,154.7C96,181,192,235,288,234.7C384,235,480,181,576,170.7C672,160,768,192,864,224C960,256,1056,288,1152,277.3C1248,267,1344,213,1392,186.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End of Top Page -->
+
+    <!-- Introduction -->
+    <section id="tentang" class="introduction">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-lg-9 aos-init aos-animate" data-aos="fade-right">
+            <!-- Judul -->
+            <div class="cont-title">
+              <h2 class="intro-title">Kenalkan, Warung Tiwul Pak Sabar</h2>
+            </div>
+            <!-- End of Judul -->
+
+            <!-- Container Kumpulan Item -->
+            <div class="intro-items">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="intro-item">
+                    <div class="row">
+                      <div class="col-3">
+                        <div class="intro-icon">
+                          <lottie-player
+                            class="halal"
+                            src="https://assets3.lottiefiles.com/packages/lf20_osgnqbad.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 100%; height: auto"
+                            loop
+                            autoplay
+                          ></lottie-player>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4>Halal</h4>
+                        <p>
+                          Semua produk kami insya Allah halal. Jika Anda muslim,
+                          Anda tidak perlu khawatir untuk ikut menikmati
+                          hidangan kami.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="intro-item">
+                    <div class="row">
+                      <div class="col-3">
+                        <div class="intro-icon">
+                          <lottie-player
+                            class="intro-lottie"
+                            src="https://assets1.lottiefiles.com/packages/lf20_m8QBdf.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 100%; height: auto"
+                            loop
+                            autoplay
+                          ></lottie-player>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4>Nikmat</h4>
+                        <p>
+                          Datang dan rasakan sendiri cita rasa masakan khas
+                          Malang. Dijamin order lagi dan lagi. Cek rating kami
+                          di Google Maps.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="intro-item">
+                    <div class="row">
+                      <div class="col-3">
+                        <div class="intro-icon">
+                          <lottie-player
+                            class="intro-lottie"
+                            src="https://assets10.lottiefiles.com/datafiles/37eUecfCINgL4BgFY1NcvncT1LRajr8hJkkfQ9DY/star/star.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 100%; height: auto"
+                            loop
+                            autoplay
+                          ></lottie-player>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4>Berstandart Tinggi</h4>
+                        <p>
+                          Semua produk kami insya Allah berstandart tinggi dan
+                          di jaga kualitas dari cita rasa dan kebersihan
+                          produksi Nasi Tiwul Pak Sabar.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="intro-item">
+                    <div class="row">
+                      <div class="col-3">
+                        <div class="intro-icon">
+                          <lottie-player
+                            class="intro-lottie"
+                            src="https://assets7.lottiefiles.com/packages/lf20_oaxnlqox.json"
+                            background="transparent"
+                            speed="1"
+                            style="width: 100%; height: auto"
+                            loop
+                            autoplay
+                          ></lottie-player>
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4>Jajanan Asli Trenggalek</h4>
+                        <p>
+                          Nasi Tiwul, ya pasti dari Trenggalek. Asli. Cek outlet
+                          kami di Jl. Tirto Sari Gg. A1 No.5A.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End of Container Kumpulan Item -->
+          </div>
+          <div class="col-lg-3 photo p-0 m-0">
+            <img src="./assets/img/introduction/pemilik.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Introduction -->
+
+    <!-- About -->
+    <section class="about">
+      <div class="container-sm">
+        <div class="row cont-about">
+          <div class="col-lg-7 kangojek">
+            <div class="row">
+              <div
+                class="col-md-6 col-sm-6 m-ojek aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div class="ojek ojek-1 h-100">
+                  <img
+                    style="width: auto; height: 100%"
+                    src="./assets/img/about/kangojek1.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div
+                class="col-md-6 col-sm-6 m-ojek aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="ojek ojek-2 h-100">
+                  <img
+                    style="width: 100%; height: max-content"
+                    src="./assets/img/about/kangojek2.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 desc-about">
+            <div class="aos-init aos-animate" data-aos="fade-up">
+              <h3>Warung Tiwul Pak Sabar</h3>
+              <h2>Tersedia Di Gojek & Grab</h2>
+              <p>
+                Warung Tiwul Pak Sabar telah terdaftar resmi di aplikasi Gojek
+                Maupun Grab untuk membantu melayani pembelian secara instan.
+              </p>
+            </div>
+
+            <div class="row">
+              <div
+                class="col-lg-6 col-md-3 text-center margin-icon aos-init aos-animate"
+                data-aos="fade-up"
+              >
+                <div class="cont-icon h-100">
+                  <div class="about-icon">
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets9.lottiefiles.com/packages/lf20_yvx3tthp.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                  <h5>365 24/7 Pelayanan Pelanggan</h5>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-3 text-center margin-icon aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div class="cont-icon h-100">
+                  <div class="about-icon">
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets9.lottiefiles.com/packages/lf20_hzp74pin.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                  <h5>Terdaftar Di Platform Google</h5>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-3 text-center margin-icon aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="cont-icon h-100">
+                  <div class="about-icon">
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets4.lottiefiles.com/packages/lf20_dnjo1erf.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                  <h5>Menjangkau Pengiriman Hingga Seluruh Indonesia</h5>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-3 text-center margin-icon aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="500"
+              >
+                <div class="cont-icon h-100">
+                  <div class="about-icon">
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets8.lottiefiles.com/packages/lf20_lthecfg4.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                  <h5>Tersedia Di Seluruh Marketplace Indonesia</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of About -->
+
+    <!-- Product -->
+    <section id="produk" class="product">
+      <div class="container-sm">
+        <div class="cont-title text-center">
+          <h2>
+            Produk Warung Nasi Tiwul <br />
+            Pak Sabar
+          </h2>
+          <hr />
+          <div class="star">
+            <lottie-player
+              src="./assets/lottie/star_judul.json"
+              background="transparent"
+              speed="1"
+              style="width: 100%; height: auto"
+              loop
+              autoplay
+            ></lottie-player>
+          </div>
+        </div>
+
+        <div class="product-area aos-init aos-animate" data-aos="zoom-in-up">
+          <div class="owl-carousel product-carousel">
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/nasi.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Tiwul Goreng Tanpa Telor</p>
+                  <h5 class="card-title">Rp 10.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/beras.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Beras Tiwul Instant 1 KG</p>
+                  <h5 class="card-title">Rp 20.0000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product//es.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Minuman Mr.eMad's Tiramisu/Capucino</p>
+                  <h5 class="card-title">Rp 6.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/nasi_tiwul.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Tiwul Krawu Gula Aren</p>
+                  <h5 class="card-title">Rp 9.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/nasi_tumpeng.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Tiwul Krawuh</p>
+                  <h5 class="card-title">Rp 8.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/nasi2.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Nasi Tiwul</p>
+                  <h5 class="card-title">Rp 20.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card h-100">
+              <a href="#">
+                <img
+                  src="./assets/img/product/nasi_telor.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <p class="card-text">Nasi Goreng Tiwul</p>
+                  <h5 class="card-title">Rp 12.000</h5>
+                  <div class="star-product">
+                    <lottie-player
+                      src="https://assets3.lottiefiles.com/datafiles/hAhD9cxKraId0XX/data.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: 100%; height: auto"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn d-flex justify-content-center">
+          <a href="#" class="another aos-init aos-animate" data-aos="zoom-in-up"
+            >Lihat Selengkapnya
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End of Product -->
+
+    <!-- Contact -->
+    <section id="kontak" class="contact">
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-md-5 desc-contact">
+            <div class="cont-title aos-init aos-animate" data-aos="fade-right">
+              <h3>Pesan Sekarang Nasi Tiwul Di</h3>
+              <h2>Warung Nasi Tiwul SBR</h2>
+            </div>
+
+            <div class="cont-contact">
+              <div class="row mb-4 align-items-center">
+                <div class="col-sm-2 px-1">
+                  <div
+                    class="contact-icon aos-init aos-animate"
+                    data-aos="fade-right"
+                  >
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets7.lottiefiles.com/packages/lf20_drhsau41.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-10 d-flex align-items-center aos-init aos-animate"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
+                  <p>+62 856-5550-1720</p>
+                </div>
+              </div>
+              <div class="row mb-4 align-items-center">
+                <div class="col-sm-2 px-1">
+                  <div
+                    class="contact-icon aos-init aos-animate"
+                    data-aos="fade-right"
+                  >
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets1.lottiefiles.com/packages/lf20_oaxnlqox.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-10 d-flex align-items-center aos-init aos-animate"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
+                  <p>
+                    Jl. Tirto Sari Gg. A1 No.5A, RT.1/RW.9, Dusun Klandungan,
+                    Landungsari, Kec. Dau, Malang, Jawa Timur 65151
+                  </p>
+                </div>
+              </div>
+              <div class="row mb-4 align-items-center">
+                <div class="col-sm-2 px-1">
+                  <div
+                    class="contact-icon aos-init aos-animate"
+                    data-aos="fade-right"
+                    data-aos-delay="200"
+                  >
+                    <lottie-player
+                      class="intro-lottie"
+                      src="https://assets3.lottiefiles.com/packages/lf20_wq7jmjtb.json"
+                      background="transparent"
+                      speed="1"
+                      style="width: auto; height: 100%"
+                      loop
+                      autoplay
+                    ></lottie-player>
+                  </div>
+                </div>
+                <div
+                  class="col-sm-10 d-flex align-items-center aos-init aos-animate"
+                  data-aos="fade-right"
+                  data-aos-delay="200"
+                >
+                  <p>
+                    - Shoppe = bit.ly/ShoppeNasiTiwulSBR <br />
+                    - Tokopedia = www.tokopedia.com/warungnasit
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-md-7 map aos-init aos-animate"
+            data-aos="zoom-in-left"
+          >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766.4543946389454!2d112.59026713513214!3d-7.934641342568762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e788398ca8f9623%3A0xca38c76cb53b66ed!2sWarung%20Nasi%20Tiwul%20SBR!5e0!3m2!1sid!2sid!4v1618562257497!5m2!1sid!2sid"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="row testi">
+          <div
+            class="col-lg-4 m-testi aos-init aos-animate"
+            data-aos="fade-right"
+          >
+            <div class="row">
+              <div class="col-2">
+                <div
+                  class="img-testi d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/img/contact/testi1.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <h5>Rahmat Travel</h5>
+                <p>
+                  Makanan legendaris yang patut dipertahankan...... ngangenin
+                  aja.....
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 m-testi aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-delay="200"
+          >
+            <div class="row">
+              <div class="col-2">
+                <div
+                  class="img-testi d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/img/contact/testi2.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <h5>Azza Nuamoorea Malang</h5>
+                <p>
+                  Makanan legendaris yang patut dipertahankan...... ngangenin
+                  aja.....
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 m-testi aos-init aos-animate"
+            data-aos="fade-right"
+            data-aos-delay="400"
+          >
+            <div class="row">
+              <div class="col-2">
+                <div
+                  class="img-testi d-flex justify-content-center align-items-center"
+                >
+                  <img src="./assets/img/contact/testi3.png" alt="" />
+                </div>
+              </div>
+              <div class="col-10">
+                <h5>Mes ini</h5>
+                <p>ini asli enak banget...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#056267"
+          fill-opacity="1"
+          d="M0,32L34.3,64C68.6,96,137,160,206,186.7C274.3,213,343,203,411,181.3C480,160,549,128,617,133.3C685.7,139,754,181,823,208C891.4,235,960,245,1029,234.7C1097.1,224,1166,192,1234,186.7C1302.9,181,1371,203,1406,213.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End of Contact -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-sm">
+        <div class="p-footer">
+          <div class="row">
+            <!-- Tempat Brand, Desc-Brand, dan icon -->
+            <div
+              class="col-lg-5 col-md-12 cont-logo aos-init aos-animate"
+              data-aos="fade-right"
+            >
+              <!-- Footer Logo -->
+              <div class="row logo">
+                <div class="col-2">
+                  <div class="cont-img">
+                    <img src="./assets/img/footer/logo.png" alt="" />
+                  </div>
+                </div>
+                <div class="col-10 d-flex align-items-center">
+                  <h5>Warung Nasi Tiwul Pak Sabar</h5>
+                </div>
+              </div>
+              <!-- Deskripsi Brand -->
+              <p class="mt-3 desc">
+                Warung Nasi Tiwul Pak Sabar merupakan warung nasi tiwul yang
+                berjualan di malang, yang memiliki cita rasa tinggi dan kualitas
+                yang tak perlu di ragukan kembali.
+              </p>
+              <!-- End of Deskripsi Brand -->
+
+              <ul class="icon">
+                <li>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./assets/img/footer/toped.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./assets/img/footer/shopee.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href=""
+                    ><img src="./assets/img/footer/maps.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <!-- End of Footer Logo -->
+            </div>
+            <!-- End of Tempat Brand, Desc-Brand, dan icon -->
+
+            <!-- Produk -->
+            <div
+              class="col-lg-3 col-md-6 col-sm-6 aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h5 class="produk-title">Produk</h5>
+              <ul class="produk-list">
+                <li><a href="#">Beras Tiwul Instan 1 KG</a></li>
+                <li><a href="#">Tiwul Goreng Tanpa Telo</a>r</li>
+                <li><a href="#">Mr.eMad's Tiramisu/Capucino</a></li>
+                <li><a href="#">Tiwul Krawu Gula Aren</a></li>
+                <li><a href="#">Tiwul Krawu</a></li>
+                <li><a href="#">Nasi Tiwul</a></li>
+                <li><a href="#">Nasi Goreng Tiwul</a></li>
+              </ul>
+            </div>
+            <!-- End of Produk -->
+
+            <!-- Kenalkan ! -->
+            <div
+              class="col-lg-4 col-md-6 col-sm-6 aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            >
+              <h5 class="intro-title">Kenalkan, Warung Tiwul Pak Sabar</h5>
+              <ul class="intro-list">
+                <li>Halal</li>
+                <li>Nikmat</li>
+                <li>Berstandart Tinggi</li>
+                <li>Jajanan Asli Trenggalek</li>
+              </ul>
+            </div>
+            <!-- End of Kenalkan ! -->
+          </div>
+          <p class="copyright text-center">
+            Copyright © 2021 Codepan Studio Surabaya
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Boostrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Owl Caousel .js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+      integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- Animate on Scroll .js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Nav Active on Sroll .js -->
+    <script src="./js/nav.js" type="text/javascript"></script>
+
+    <!-- Costum Main.js -->
+    <script src="./js/main.js" type="text/javascript"></script>
+  </body>
+</html>
