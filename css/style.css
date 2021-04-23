@@ -318,6 +318,11 @@ header nav .nav-link:hover::before {
   background: #fecc76;
 }
 
+.product .product-carousel .hvr-underline-from-left::before {
+  background: #056267;
+  height: 6px;
+}
+
 .product .product-carousel .card-body {
   padding-bottom: 5px !important;
 }
@@ -422,6 +427,15 @@ header nav .nav-link:hover::before {
   font-size: 0.8rem;
   font-weight: 600;
   color: #056267;
+}
+
+.contact .cont-contact p a {
+  color: #056267;
+  text-decoration: none;
+}
+
+.contact .cont-contact p a:hover {
+  color: #088a91;
 }
 
 .contact .map iframe {
