@@ -1,12 +1,12 @@
 @media screen and (min-width: 1300px) {
   .introduction .photo img {
-    width: 120%;
+    width: 350px;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .introduction .photo img {
-    width: 110%;
+    width: 300px;
   }
 }
 
@@ -222,8 +222,7 @@
   }
 
   .introduction .photo {
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
 
   .introduction .photo img {
