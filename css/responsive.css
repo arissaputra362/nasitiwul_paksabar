@@ -228,6 +228,7 @@
 
   .introduction .photo img {
     width: 190px;
+    height: auto;
     position: unset;
   }
 
